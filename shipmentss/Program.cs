@@ -10,8 +10,8 @@ namespace SHIPMENTS
             try
             {
                
-                StupidShipment shipment1 = new StupidShipment("INV001", "Documents", "Varna", "Burgas", 5.6, 10.6);
-                StupidShipment shipment2 = new StupidShipment("INV002", "Clothes", "Sofia", "Plovdiv", 8.6, 12.6);
+                StupidShipment shipment1 = new StupidShipment("ASDFGHJK", "Documents", "Varna", "Burgas", 5.6, 10.6);
+                StupidShipment shipment2 = new StupidShipment("WERTYURT", "Clothes", "Sofia", "Plovdiv", 8.6, 12.6);
 
                 List<StupidShipment> listOfShipments = new List<StupidShipment>() { shipment1,shipment2};
 
